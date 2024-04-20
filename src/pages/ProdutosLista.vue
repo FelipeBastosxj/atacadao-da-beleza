@@ -4,7 +4,7 @@
 
     <section class="row">
       <q-card v-for="images,index in imageNames" :key="index" class="my-card" flat bordered>
-        <img style="height: 500px;" class="object-fit" :src="'../../public/icons/1.png'"  />
+        <img style="height: 500px;" class="object-fit" :src="'../../public/images/'+images" />
 
         <q-separator />
         <q-list>
