@@ -3,8 +3,8 @@
     <q-header elevated class="text-white" style="background: #D97F76" height-hint="61.59">
       <q-toolbar class="q-py-sm q-px-md">
         <q-btn round dense flat :ripple="false"  size="19px" color="white" class="q-mr-sm" no-caps >
-          <q-avatar size="42px">
-        <img src="../../public/favicon.ico">
+          <q-avatar size="52px">
+        <img src="../../public/icons/favicon-96x96.png">
       </q-avatar>
         </q-btn>
 
@@ -16,11 +16,14 @@
 
         
         <div v-if="$q.screen.gt.sm" class="GL__toolbar-link q-ml-xs q-gutter-md text-body2 text-weight-bold row items-center no-wrap">
-          <a href="javascript:void(0)" class="text-white">
+          <a @click="routerGo('home')" style="cursor: pointer;" href="javascript:void(0)" class="text-white">
+            Home
+          </a>
+          <a style="cursor: pointer;" href="javascript:void(0)" class="text-white">
             Socios
           </a>
          
-          <a href="javascript:void(0)" class="text-white">
+          <a style="cursor: pointer;" @click="routerGo('produtos')" class="text-white">
             Produtos
           </a>
          
@@ -43,6 +46,7 @@
 
 <script>
 import { ref } from 'vue'
+import { useRouter } from 'vue-router';
 
 
 
@@ -51,14 +55,16 @@ export default {
 
   setup () {
     const text = ref('')
-
+    const router = useRouter()
 
     const search = ref(null) // $refs.search
 
-   
+   const routerGo = async(value)=>{
+    router.push({name:value})
+   }
 
     return {
-
+      routerGo,
 
       text,
     
