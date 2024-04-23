@@ -19,10 +19,7 @@
           <a @click="routerGo('home')" style="cursor: pointer;" href="javascript:void(0)" class="text-white">
             Home
           </a>
-          <a style="cursor: pointer;" href="javascript:void(0)" class="text-white">
-            Socios
-          </a>
-         
+        
           <a style="cursor: pointer;" @click="routerGo('produtos')" class="text-white">
             Produtos
           </a>

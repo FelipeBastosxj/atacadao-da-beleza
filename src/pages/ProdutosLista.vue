@@ -47,8 +47,6 @@ export default {
         "images/12.png",
         "images/13.png",
         "images/16.png",
-        "images/17.png",
-
       ],
     };
   },
