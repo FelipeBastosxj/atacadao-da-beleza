@@ -23,14 +23,28 @@
         </q-list>
       </q-card>
     </section>
+
+    <div style="width: 100%;" class="row justify-center q-mt-md">
+    <q-btn @click="goProduct" size="lg" class="row justify-center" color="accent" label="Inicio" icon="home"/>
+
+
+  </div>
   </q-page>
 </template>
 
 <script>
+import { useRouter } from 'vue-router';
+
 export default {
   setup() {
+    const router = useRouter()
+
+    const goProduct = async()=>{
+  router.push({name:"home"})
+}
+
     return {
-      imageSrc:'images/1.png',
+      goProduct,
 
       imageNames: [
         "images/1.png",
