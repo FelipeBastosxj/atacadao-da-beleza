@@ -54,31 +54,31 @@
       <q-carousel-slide name="2" class="column no-wrap flex-center">
         <q-icon name="person" size="56px" />
         <div style="font-size: 30px" class="q-mt-md text-center">
-          Nathan (gerente)
+          Nathan (Finanças e Estatistica)
         </div>
       </q-carousel-slide>
       <q-carousel-slide name="3" class="column no-wrap flex-center">
         <q-icon name="person" size="56px" />
         <div style="font-size: 30px" class="q-mt-md text-center">
-          Breno (supervisor)
+          Brenno (Contador)
         </div>
       </q-carousel-slide>
       <q-carousel-slide name="4" class="column no-wrap flex-center">
         <q-icon name="person" size="56px" />
         <div style="font-size: 30px" class="q-mt-md text-center">
-          Felipe (Contador)
+          Felipe (Plataforma)
         </div>
       </q-carousel-slide>
       <q-carousel-slide name="5" class="column no-wrap flex-center">
         <q-icon name="person" size="56px" />
         <div style="font-size: 30px" class="q-mt-md text-center">
-          Yasmin (Embalagem)
+          Yasmin (Fabricantes)
         </div>
       </q-carousel-slide>
       <q-carousel-slide name="6" class="column no-wrap flex-center">
         <q-icon name="person" size="56px" />
         <div style="font-size: 30px" class="q-mt-md text-center">
-          Gustavo (vendedor)
+          Gustavo (Estrategia de venda e Marketing)
         </div>
       </q-carousel-slide>
     </q-carousel>
