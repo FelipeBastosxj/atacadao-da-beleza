@@ -85,7 +85,7 @@
   <div style="width: 100%;" class="row justify-center q-mt-md">
     <q-btn  @click="goProduct" size="lg" class="row justify-center q-mt-md" color="positive" label="Ver Estoque" icon="inventory_2"/>
 
-    <q-btn type="a" download target="_blank" :href="arquivo" @click="goProduct" size="lg" class="row justify-center q-mt-md" color="secondary" label="Baixar fwe f" icon="arrow_downward"/>
+    <q-btn type="a" download target="_blank" :href="arquivo" @click="goProduct" size="lg" class="row justify-center q-mt-md q-ml-sm" color="secondary" label="Baixar fwe f" icon="arrow_downward"/>
 
 
   </div>
